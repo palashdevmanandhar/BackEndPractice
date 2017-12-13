@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+  i{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height:500px) {
+.table {
+    display: none;
+}
+table.trash-table.table{
+  width: 5%;
+}
+.table-section.clearfix{
+  padding: 0;
+}
+}

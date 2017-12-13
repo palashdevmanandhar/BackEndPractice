@@ -1,0 +1,92 @@
+
+/* load fonts */
+@font-face {
+  font-family: "AGNextBold";
+  src: url(./fonts/AGNextBold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AGNextBlack";
+  src: url(./fonts/AGNextBlack.otf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+  font-family: AGNextBlack !important;
+}
+
+/* main section */
+section.first-section {
+    padding: 30px 60px;
+    font-weight: bold;
+}
+/* top bar */
+.top-bar h1 {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: left;
+  margin: 0;
+  font-family: AGNextBold;
+}
+.top-bar i {
+    text-align: right;
+    float: right;
+}
+/* search section */
+.search-wrapper {
+    text-align: center;
+}
+
+.search-wrapper input {
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #333;
+    min-width: 300px;
+    font-size: 18px;
+}
+/* table section */
+.table-section.clearfix {
+    padding: 0 8%;
+}
+.table>thead>tr>th,
+.table>tbody>tr>td{
+    border: 0;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-family: AGNextBold;
+  }
+
+.table{
+   width: 97%;
+   max-width: 97%;
+   margin-bottom: 20px;
+   border-collapse: separate;
+   border-spacing: 0 1.3em;
+   text-align: center;
+   float: left;
+ }
+
+tr.shadow{
+    box-shadow: 0 0 11px #adadad;
+  }
+  table.trash-table.table {
+    width: 3%;
+    text-align: left;
+}
+table.trash-table.table thead tr th{
+  text-align: center;
+}
+/* count section */
+.count {
+    width: 100px;
+    float: right;
+}
+.count h1{
+  color: #17a522;
+  font-family: AGNextBold;
+}
