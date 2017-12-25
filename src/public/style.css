@@ -61,15 +61,15 @@ section.first-section {
     font-family: AGNextBold;
   }
 
-.table{
-   width: 97%;
-   max-width: 97%;
-   margin-bottom: 20px;
-   border-collapse: separate;
-   border-spacing: 0 1.3em;
-   text-align: center;
-   float: left;
- }
+  .table {
+      width: 96%;
+      max-width: 96%;
+      margin-bottom: 20px;
+      border-collapse: separate;
+      border-spacing: 0 1.3em;
+      text-align: center;
+      float: left;
+  }
 
 tr.shadow{
     box-shadow: 0 0 11px #adadad;
@@ -89,4 +89,27 @@ table.trash-table.table thead tr th{
 .count h1{
   color: #17a522;
   font-family: AGNextBold;
+}
+
+
+/*team page begin*/
+
+section.teampage-area {
+  backgroundColor:'yellow',
+  
+}
+
+.leftpad{
+  backgroundColor:'blue',
+  flex: 3
+}
+
+.rightpad{
+  backgroundColor:'red',
+  flex:3
+}
+
+.box-section{
+  backgroundColor:'green',
+  flex:5
 }
